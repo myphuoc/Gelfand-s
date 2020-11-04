@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form">
+        <div class="wrap">
+            <h1 class="main">Luật chơi</h1>
+            <ul>
+                <li>Người chơi và máy lần lượt di chuyển quân tốt trên bàn cờ.</li>
+                <li>Mỗi lượt chơi người chơi chỉ được di chuyển quân tốt tiến về phía trước(sang phải, lên trước, chéo phải)và không được lùi.</li>
+                <li>Người thắng cuộc là người di chuyển đến ô trên cùng bên phải trước nhất</li>
+            <ul>
+        </div>
+        <div class="main">
+            <h1>Mời bạn chọn ma trận bàn cờ</h1>
+            <input type="number" class="ROW" placeholder="row">
+            <input type="number" class="COL" placeholder="colume">
+            <input type="submit" class="inp" onclick="getValue()" value="Sumit">
+            <div class="container"></div>
+            <div class="winner">
+                <p class="player-win"></p>
+                <button class="restart">Restart</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

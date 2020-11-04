@@ -1,0 +1,91 @@
+.ROW{
+    background-color: skyblue;
+    width: 50px;
+    height: auto;
+}
+.COL{
+    background-color: skyblue;
+    width: 50px;
+    height: auto;
+}
+.inp{
+    background-color: tan;
+    width: 50px;
+    height: auto; 
+}
+.row{
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+.container{
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+}
+.col{
+    width: 30px;
+    height: 30px;
+    background: cadetblue;
+    border: 1px solid black;
+    font-size: 150%;
+    text-align: center;
+    color:black;
+    cursor: pointer;
+}
+button{
+    margin:50px  auto;
+    display: block;
+}
+.active{
+    color:salmon;
+}
+.winner{
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .9);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 200%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+}
+.winner button{
+    margin-top: -30px;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+.winner p{
+    color: yellow;
+    text-align: center;
+}
+.winner.show{
+    display: flex;
+}
+
+.player1{
+    color: red;
+}
+.player2{
+    color: seagreen;
+}
+.wrap{
+    float: left;
+       margin-left: 2%;
+       width: 40%;
+    background-color: #cce6ff;
+}
+.main{
+    float: left;
+       margin-left: 5%;
+       width: 50%;
+}
+body{
+background-color: seashell;
+}
